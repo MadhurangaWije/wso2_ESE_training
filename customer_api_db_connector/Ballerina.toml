@@ -1,0 +1,15 @@
+[project]
+org-name= "kanishka"
+version= "0.1.1"
+
+[build-options]
+observability-included=true
+
+[dependencies]
+
+[platform]
+target="java11"
+
+[[platform.libraries]]
+path="./src/db_connector/resources/mysql-connector-java-8.0.18.jar"
+modules=["db_connector"]

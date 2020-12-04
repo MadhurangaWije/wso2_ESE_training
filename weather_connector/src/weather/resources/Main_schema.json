@@ -1,0 +1,1 @@
+{"kanishka/weather:0.1.2:Main":{"temp":"decimal","feels_like":"decimal","temp_min":"decimal","temp_max":"decimal","pressure":"int","humidity":"int"}}

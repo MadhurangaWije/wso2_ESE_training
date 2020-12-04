@@ -1,0 +1,6 @@
+[2020-12-04 06:11:07,630] SEVERE {b7a.log.crash} - there are test failures 
+java.lang.RuntimeException: there are test failures
+	at org.ballerinalang.test.runtime.util.TesterinaUtils.executeTests(TesterinaUtils.java:77)
+	at org.ballerinalang.test.runtime.Main.startTestSuit(Main.java:60)
+	at org.ballerinalang.test.runtime.Main.main(Main.java:52)
+ 

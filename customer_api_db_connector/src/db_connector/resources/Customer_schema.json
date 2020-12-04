@@ -1,0 +1,1 @@
+{"kanishka/db_connector:0.1.1:Customer":{"customerId":"int","name":"string","age":"int","location":"string"}}

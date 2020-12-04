@@ -1,0 +1,54 @@
+org_name = "kanishka"
+version = "0.1.1"
+lockfile_version = "1.0.0"
+ballerina_version = "slp5"
+
+[[imports."ballerina/system:0.6.1"]]
+org_name = "ballerina"
+name = "io"
+version = "0.5.1"
+
+[[imports."kanishka/db_connector:0.1.1"]]
+org_name = "ballerina"
+name = "sql"
+version = "0.5.1"
+
+[[imports."kanishka/db_connector:0.1.1"]]
+org_name = "ballerina"
+name = "java.jdbc"
+version = "0.5.1"
+
+[[imports."kanishka/db_connector:0.1.1"]]
+org_name = "ballerina"
+name = "log"
+version = "1.0.1"
+
+[[imports."ballerina/java.jdbc:0.5.1"]]
+org_name = "ballerina"
+name = "sql"
+version = "0.5.1"
+
+[[imports."ballerina/sql:0.5.1"]]
+org_name = "ballerina"
+name = "config"
+version = "1.0.1"
+
+[[imports."ballerina/sql:0.5.1"]]
+org_name = "ballerina"
+name = "io"
+version = "0.5.1"
+
+[[imports."ballerina/sql:0.5.1"]]
+org_name = "ballerina"
+name = "time"
+version = "1.0.2"
+
+[[imports."ballerina/config:1.0.1"]]
+org_name = "ballerina"
+name = "stringutils"
+version = "0.5.1"
+
+[[imports."ballerina/config:1.0.1"]]
+org_name = "ballerina"
+name = "system"
+version = "0.6.1"

@@ -1,0 +1,16 @@
+[2020-12-01 16:36:19,231] SEVERE {b7a.log.crash} - null 
+java.lang.NullPointerException
+	at org.ballerinalang.net.http.HttpUtil.getErrorMessage(HttpUtil.java:473)
+	at org.ballerinalang.net.http.HttpUtil.handleFailure(HttpUtil.java:464)
+	at org.ballerinalang.net.http.HttpCallableUnitCallback.notifyFailure(HttpCallableUnitCallback.java:41)
+	at io.ballerina.runtime.scheduling.Scheduler.postProcess(Scheduler.java:337)
+	at io.ballerina.runtime.scheduling.Scheduler.run(Scheduler.java:293)
+	at io.ballerina.runtime.scheduling.Scheduler.runSafely(Scheduler.java:245)
+	at java.base/java.lang.Thread.run(Unknown Source)
+ 
+[2020-12-04 08:07:42,385] SEVERE {b7a.log.crash} - there are test failures 
+java.lang.RuntimeException: there are test failures
+	at org.ballerinalang.test.runtime.util.TesterinaUtils.executeTests(TesterinaUtils.java:77)
+	at org.ballerinalang.test.runtime.Main.startTestSuit(Main.java:60)
+	at org.ballerinalang.test.runtime.Main.main(Main.java:52)
+ 
